@@ -1,0 +1,61 @@
+{
+  "version": "approx-population-v1",
+  "description": "Approximate CONUS population weights. Representative cities are proxies, not a gridded population or gas-demand map.",
+  "base_f": 65.0,
+  "regions": [
+    {"id": "new_england", "name": "New England", "weight": 0.05, "points": [
+      {"id": "boston", "lat": 42.3601, "lon": -71.0589, "weight": 0.50},
+      {"id": "hartford", "lat": 41.7658, "lon": -72.6734, "weight": 0.25},
+      {"id": "portland_me", "lat": 43.6591, "lon": -70.2568, "weight": 0.15},
+      {"id": "burlington", "lat": 44.4759, "lon": -73.2121, "weight": 0.10}
+    ]},
+    {"id": "middle_atlantic", "name": "Middle Atlantic", "weight": 0.12, "points": [
+      {"id": "new_york", "lat": 40.7128, "lon": -74.0060, "weight": 0.50},
+      {"id": "philadelphia", "lat": 39.9526, "lon": -75.1652, "weight": 0.30},
+      {"id": "pittsburgh", "lat": 40.4406, "lon": -79.9959, "weight": 0.20}
+    ]},
+    {"id": "east_north_central", "name": "East North Central", "weight": 0.14, "points": [
+      {"id": "chicago", "lat": 41.8781, "lon": -87.6298, "weight": 0.35},
+      {"id": "detroit", "lat": 42.3314, "lon": -83.0458, "weight": 0.25},
+      {"id": "columbus", "lat": 39.9612, "lon": -82.9988, "weight": 0.25},
+      {"id": "milwaukee", "lat": 43.0389, "lon": -87.9065, "weight": 0.15}
+    ]},
+    {"id": "west_north_central", "name": "West North Central", "weight": 0.065, "points": [
+      {"id": "minneapolis", "lat": 44.9778, "lon": -93.2650, "weight": 0.35},
+      {"id": "kansas_city", "lat": 39.0997, "lon": -94.5786, "weight": 0.25},
+      {"id": "st_louis", "lat": 38.6270, "lon": -90.1994, "weight": 0.30},
+      {"id": "omaha", "lat": 41.2565, "lon": -95.9345, "weight": 0.10}
+    ]},
+    {"id": "south_atlantic", "name": "South Atlantic", "weight": 0.21, "points": [
+      {"id": "washington", "lat": 38.9072, "lon": -77.0369, "weight": 0.20},
+      {"id": "atlanta", "lat": 33.7490, "lon": -84.3880, "weight": 0.25},
+      {"id": "charlotte", "lat": 35.2271, "lon": -80.8431, "weight": 0.20},
+      {"id": "miami", "lat": 25.7617, "lon": -80.1918, "weight": 0.20},
+      {"id": "orlando", "lat": 28.5383, "lon": -81.3792, "weight": 0.15}
+    ]},
+    {"id": "east_south_central", "name": "East South Central", "weight": 0.06, "points": [
+      {"id": "nashville", "lat": 36.1627, "lon": -86.7816, "weight": 0.35},
+      {"id": "louisville", "lat": 38.2527, "lon": -85.7585, "weight": 0.25},
+      {"id": "birmingham", "lat": 33.5186, "lon": -86.8104, "weight": 0.25},
+      {"id": "jackson_ms", "lat": 32.2988, "lon": -90.1848, "weight": 0.15}
+    ]},
+    {"id": "west_south_central", "name": "West South Central", "weight": 0.13, "points": [
+      {"id": "houston", "lat": 29.7604, "lon": -95.3698, "weight": 0.35},
+      {"id": "dallas", "lat": 32.7767, "lon": -96.7970, "weight": 0.35},
+      {"id": "oklahoma_city", "lat": 35.4676, "lon": -97.5164, "weight": 0.20},
+      {"id": "little_rock", "lat": 34.7465, "lon": -92.2896, "weight": 0.10}
+    ]},
+    {"id": "mountain", "name": "Mountain", "weight": 0.08, "points": [
+      {"id": "phoenix", "lat": 33.4484, "lon": -112.0740, "weight": 0.35},
+      {"id": "denver", "lat": 39.7392, "lon": -104.9903, "weight": 0.35},
+      {"id": "salt_lake", "lat": 40.7608, "lon": -111.8910, "weight": 0.20},
+      {"id": "boise", "lat": 43.6150, "lon": -116.2023, "weight": 0.10}
+    ]},
+    {"id": "pacific", "name": "Pacific CONUS", "weight": 0.145, "points": [
+      {"id": "los_angeles", "lat": 34.0522, "lon": -118.2437, "weight": 0.45},
+      {"id": "san_francisco", "lat": 37.7749, "lon": -122.4194, "weight": 0.25},
+      {"id": "seattle", "lat": 47.6062, "lon": -122.3321, "weight": 0.20},
+      {"id": "portland_or", "lat": 45.5152, "lon": -122.6784, "weight": 0.10}
+    ]}
+  ]
+}

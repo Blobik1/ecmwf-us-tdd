@@ -1,0 +1,33 @@
+{
+  "model": "ECMWF IFS oper/fc 0.25",
+  "run_time_utc": "2026-11-22T00:00:00+00:00",
+  "config_id": "d44fd75a1c652e31de1c08c15e099e98ad8b35937cca8458e7b7955bada34918",
+  "weights_version": "approx-population-v1",
+  "base_f": 65.0,
+  "units": "Fahrenheit degree-days",
+  "day_boundary": "UTC 00:00-24:00",
+  "full_days": 15,
+  "dates": [
+    "2026-11-22",
+    "2026-11-23",
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-29",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-02",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06"
+  ],
+  "hdd": 220.8412413766474,
+  "cdd": 8.589028508148257,
+  "tdd": 229.43026988479565,
+  "comparison_dates": [],
+  "delta_tdd_same_dates": null,
+  "limitation": "Approximate population-weighted city proxy; not an official gas-demand index"
+}
